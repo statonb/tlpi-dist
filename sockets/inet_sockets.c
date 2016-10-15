@@ -176,7 +176,8 @@ char *
 inetAddressStr(const struct sockaddr *addr, socklen_t addrlen,
                char *addrStr, int addrStrLen)
 {
-    char host[NI_MAXHOST], service[NI_MAXSERV];
+//    char host[NI_MAXHOST], service[NI_MAXSERV];
+    struct sockaddr_in *addr_in = (struct sockaddr_in *)addr;
 
 //    if (getnameinfo(addr, addrlen, host, NI_MAXHOST,
 //                    service, NI_MAXSERV, NI_NUMERICSERV) == 0)
@@ -184,6 +185,5 @@ inetAddressStr(const struct sockaddr *addr, socklen_t addrlen,
 //    else
 //        snprintf(addrStr, addrStrLen, "(?UNKNOWN?)");
     snprintf(addrStr, addrStrLen, "(%s)", inet_ntoa(addr_in->sin_addr));
-
     return addrStr;
 }
