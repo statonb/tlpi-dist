@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tlpi-dist" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tlpi-dist" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tlpi-dist" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="acl/acl_update.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="acl/acl_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="altio/demo_sigio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="altio/epoll_input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="altio/poll_pipes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="altio/select_mq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="altio/self_pipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="altio/t_select.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cap/check_password_caps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="daemons/become_daemon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="daemons/become_daemon.h" />
+		<Unit filename="daemons/daemon_SIGHUP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="daemons/t_syslog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="daemons/test_become_daemon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/bad_symlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/file_type_stats.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/list_files.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/list_files_readdir_r.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/nftw_dir_tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/t_dirbasename.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/t_unlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dirs_links/view_symlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filebuff/copy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filebuff/direct_read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filebuff/mix23_linebuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filebuff/mix23io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filebuff/write_bytes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/atomic_append.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/bad_exclusive_open.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/copy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/large_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/multi_descriptors.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/seek_io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/t_readv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileio/t_truncate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filelock/create_pid_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filelock/create_pid_file.h" />
+		<Unit filename="filelock/i_fcntl_locking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filelock/region_locking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filelock/region_locking.h" />
+		<Unit filename="filelock/t_flock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="files/chiflag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="files/file_perms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="files/file_perms.h" />
+		<Unit filename="files/t_chown.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="files/t_stat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="files/t_umask.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="files/t_utime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="files/t_utimes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filesys/t_mount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filesys/t_statfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filesys/t_statvfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filesys/t_umount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="getopt/t_getopt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inotify/demo_inotify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inotify/dnotify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inotify/inotify_dtree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inotify/rand_dtree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/alt_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/alt_functions.h" />
+		<Unit filename="lib/become_daemon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/become_daemon.h" />
+		<Unit filename="lib/binary_sems.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/binary_sems.h" />
+		<Unit filename="lib/create_pid_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/create_pid_file.h" />
+		<Unit filename="lib/curr_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/curr_time.h" />
+		<Unit filename="lib/error_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/error_functions.h" />
+		<Unit filename="lib/event_flags.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/event_flags.h" />
+		<Unit filename="lib/file_perms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/file_perms.h" />
+		<Unit filename="lib/get_num.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/get_num.h" />
+		<Unit filename="lib/inet_sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/inet_sockets.h" />
+		<Unit filename="lib/itimerspec_from_str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/itimerspec_from_str.h" />
+		<Unit filename="lib/print_rlimit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/print_rlimit.h" />
+		<Unit filename="lib/print_rusage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/print_rusage.h" />
+		<Unit filename="lib/print_wait_status.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/print_wait_status.h" />
+		<Unit filename="lib/pty_fork.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/pty_fork.h" />
+		<Unit filename="lib/pty_master_open.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/pty_master_open.h" />
+		<Unit filename="lib/rdwrn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/rdwrn.h" />
+		<Unit filename="lib/read_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/read_line.h" />
+		<Unit filename="lib/read_line_buf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/read_line_buf.h" />
+		<Unit filename="lib/region_locking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/region_locking.h" />
+		<Unit filename="lib/semun.h" />
+		<Unit filename="lib/signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/signal_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/signal_functions.h" />
+		<Unit filename="lib/tlpi_hdr.h" />
+		<Unit filename="lib/tty_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/tty_functions.h" />
+		<Unit filename="lib/ugid_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ugid_functions.h" />
+		<Unit filename="lib/unix_sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/unix_sockets.h" />
+		<Unit filename="loginacct/dump_utmpx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loginacct/utmpx_login.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loginacct/view_lastlog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memalloc/free_and_sbrk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mmap/anon_mmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mmap/mmcat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mmap/mmcopy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mmap/t_mmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mmap/t_remap_file_pages.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/demo_userns.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/demo_uts_namespaces.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/hostname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/multi_pidns.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/ns_child_exec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/ns_exec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/ns_run.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/orphan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/pidns_init_sleep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/simple_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/t_setns_userns.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/unshare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/userns_child_exec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="namespaces/userns_setns_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pgsjc/catch_SIGHUP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pgsjc/disc_SIGHUP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pgsjc/handling_SIGTSTP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pgsjc/job_mon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pgsjc/orphaned_pgrp_SIGHUP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pgsjc/t_setsid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pipes/change_case.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pipes/fifo_seqnum.h" />
+		<Unit filename="pipes/fifo_seqnum_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pipes/fifo_seqnum_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pipes/pipe_ls_wc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pipes/pipe_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pipes/popen_glob.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pipes/simple_pipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/mq_notify_sig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/mq_notify_sigwaitinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/mq_notify_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/mq_notify_via_signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/mq_notify_via_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/pmsg_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/pmsg_getattr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/pmsg_receive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/pmsg_send.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pmsg/pmsg_unlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/bad_longjmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/display_env.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/longjmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/mem_segments.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/modify_env.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/necho.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/setenv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/setjmp_vars.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proc/t_getenv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proccred/idshow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/acct_on.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/acct_v3_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/acct_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/child_status.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/closeonexec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/demo_clone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/envargs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/execlp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/exit_handlers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/footprint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/fork_file_sharing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/fork_sig_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/fork_stdio_buf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/fork_whos_on_first.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/make_zombie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/multi_SIGCHLD.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/multi_wait.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/necho.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/orphan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/print_wait_status.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/print_wait_status.h" />
+		<Unit filename="procexec/simple_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_clone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_execl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_execle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_execlp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_execve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_fork.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/t_vfork.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procexec/vfork_fd_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procpri/demo_sched_fifo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procpri/sched_set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procpri/sched_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procpri/t_sched_getaffinity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procpri/t_sched_setaffinity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procpri/t_setpriority.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procres/print_rlimit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procres/print_rlimit.h" />
+		<Unit filename="procres/print_rusage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procres/print_rusage.h" />
+		<Unit filename="procres/rlimit_nproc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procres/rusage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="procres/rusage_wait.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="progconc/syscall_speed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/psem_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/psem_getvalue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/psem_post.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/psem_timedwait.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/psem_trywait.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/psem_unlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/psem_wait.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psem/thread_incr_psem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pshm/pshm_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pshm/pshm_read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pshm/pshm_unlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pshm/pshm_write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pty/pty_fork.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pty/pty_fork.h" />
+		<Unit filename="pty/pty_master_open.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pty/pty_master_open.h" />
+		<Unit filename="pty/pty_master_open_bsd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pty/script.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pty/unbuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seccomp/libseccomp_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seccomp/seccomp_control_open.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seccomp/seccomp_deny_open.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seccomp/seccomp_perf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/demo_Bsymbolic/foo1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/demo_Bsymbolic/foo2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/demo_Bsymbolic/foo3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/demo_Bsymbolic/prog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/dynload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/mod1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/mod2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/mod3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/prog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/rpath_demo/d1/modx1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/rpath_demo/d2/modx2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/rpath_demo/prog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/sv_lib_v1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/sv_lib_v2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/sv_libabc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/sv_prog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/sv_prog_abc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/sv_prog_complex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/vis_comm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/vis_f1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shlibs/version_scripts/vis_f2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/catch_rtsigs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/demo_SIGFPE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/ignore_pending_sig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/intquit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/nonreentrant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/ouch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/sig_receiver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/sig_sender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/sig_speed_sigsuspend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/siginterrupt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/sigmask_longjmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/signal_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/signal_functions.h" />
+		<Unit filename="signals/signalfd_sigval.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/t_kill.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/t_sigaltstack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/t_sigqueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/t_sigsuspend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="signals/t_sigwaitinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/i6d_ucase.h" />
+		<Unit filename="sockets/i6d_ucase_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/i6d_ucase_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/id_echo.h" />
+		<Unit filename="sockets/id_echo_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/id_echo_cl3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/id_echo_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/id_echo_sv3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/inet_sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/inet_sockets.h" />
+		<Unit filename="sockets/is_echo_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/is_echo_inetd_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/is_echo_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/is_echo_v2_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/is_seqnum.h" />
+		<Unit filename="sockets/is_seqnum_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/is_seqnum_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/is_seqnum_v2.h" />
+		<Unit filename="sockets/is_seqnum_v2_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/is_seqnum_v2_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/list_host_addresses.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/rdwrn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/rdwrn.h" />
+		<Unit filename="sockets/read_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/read_line.h" />
+		<Unit filename="sockets/read_line_buf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/read_line_buf.h" />
+		<Unit filename="sockets/scm_cred.h" />
+		<Unit filename="sockets/scm_cred_recv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/scm_cred_send.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/scm_rights.h" />
+		<Unit filename="sockets/scm_rights_recv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/scm_rights_send.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/sendfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/socknames.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/t_gethostbyname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/t_getservbyname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/ud_ucase.h" />
+		<Unit filename="sockets/ud_ucase_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/ud_ucase_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/unix_sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/unix_sockets.h" />
+		<Unit filename="sockets/us_abstract_bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/us_xfr.h" />
+		<Unit filename="sockets/us_xfr_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/us_xfr_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/us_xfr_v2.h" />
+		<Unit filename="sockets/us_xfr_v2_cl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sockets/us_xfr_v2_sv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svipc/svmsg_demo_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svipc/t_ftok.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_chqbytes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_file.h" />
+		<Unit filename="svmsg/svmsg_file_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_file_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_ls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_receive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_rm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svmsg/svmsg_send.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/binary_sems.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/binary_sems.h" />
+		<Unit filename="svsem/event_flags.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/event_flags.h" />
+		<Unit filename="svsem/semun.h" />
+		<Unit filename="svsem/svsem_bad_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_good_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_mon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_op.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_rm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svsem/svsem_setall.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_attach.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_lock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_mon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_rm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_unlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_xfr.h" />
+		<Unit filename="svshm/svshm_xfr_reader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svshm/svshm_xfr_writer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sysinfo/procfs_pidmax.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sysinfo/procfs_user_exe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sysinfo/t_uname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="syslim/t_fpathconf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="syslim/t_sysconf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/detached_attrib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/one_time_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/prod_condvar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/prod_no_condvar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/pthread_barrier_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/simple_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/strerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/strerror_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/strerror_tls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/strerror_tsd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_cancel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_cleanup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_incr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_incr_mutex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_incr_rwlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_incr_spinlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_lock_speed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="threads/thread_multijoin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time/calendar_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time/curr_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time/curr_time.h" />
+		<Unit filename="time/process_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time/show_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time/strtime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time/t_stime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/demo_timerfd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/itimerspec_from_str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/itimerspec_from_str.h" />
+		<Unit filename="timers/ptmr_null_evp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/ptmr_sigev_signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/ptmr_sigev_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/real_timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/t_clock_nanosleep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/t_nanosleep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers/timed_read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tty/demo_SIGWINCH.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tty/new_intr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tty/no_echo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tty/test_tty_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tty/tty_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tty/tty_functions.h" />
+		<Unit filename="tty/ttyname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="users_groups/check_password.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="users_groups/t_getpwent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="users_groups/t_getpwnam_r.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="users_groups/ugid_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="users_groups/ugid_functions.h" />
+		<Unit filename="vmem/madvise_dontneed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vmem/memlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vmem/t_mprotect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xattr/t_setxattr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xattr/xattr_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
